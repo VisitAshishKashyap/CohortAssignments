@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.header .navigations ul{
+    display: flex;
+    gap:20px;
+}
