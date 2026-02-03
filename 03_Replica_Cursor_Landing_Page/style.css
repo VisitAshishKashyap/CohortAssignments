@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 0px auto;
+    /* margin: 0px auto; */
     text-decoration: none;
     background-color:#f1e7e7;
 
@@ -8,7 +8,7 @@
 
 .header{
     display: flex;
-    /* justify-content: space-around;  */
+    justify-content: space-around; 
     align-items: center;
     margin-top: 10px;
     /* max-width: calc(100%-400px); */
@@ -50,9 +50,23 @@
 .after-header{
     margin-top:20px;
     margin-left: 138px;
+        /* display: flex; */
+    /* flex-direction: column; */
 
 }
 
 .after-header p{
     font-size: 22px;
+
+}
+.after-header a{
+    background-color: #020101;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+i .aaaa{
+    color:green !important;
 }
