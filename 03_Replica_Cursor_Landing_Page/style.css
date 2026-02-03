@@ -2,9 +2,37 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none;
+    /* background-color: rgba(204, 204, 204); */
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .header .navigations ul{
     display: flex;
     gap:20px;
+}
+.header .navigations ul li{
+    list-style-type:none;
+}
+.header .buttons {
+    display: flex;
+    gap: 10px;
+     
+}
+.header .Mybuttons button.MysignIn{
+/* background-color: #eed2d200;  */
+   /* color:#000000; */
+    border-radius: 20px;
+    padding: 10px;
+}
+.header .Mybuttons button.Mydownloads{
+    background-color: rgb(20, 20, 20);
+    color:#ffff;
+    border-radius: 20px;
+    padding: 10px;
 }
