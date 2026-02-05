@@ -2,15 +2,17 @@
   padding: 0px;
   /* margin: 0px auto; */
   text-decoration: none;
-  background-color: #cccccc;
-}
+  /* background-color: #cccccc; */
 
+}
+.container{
+    margin:0px 50px;
+}
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 10px;
-  /* max-width: calc(100%-400px); */
 }
 
 .header .navigations ul {
@@ -44,7 +46,7 @@
 }
 .after-header {
   margin-top: 20px;
-  margin-left: 138px;
+  /* margin-left: 138px; */
   margin-bottom: 50px;
 }
 .after-header div.text-arrow {
@@ -67,18 +69,18 @@ i .aaaa {
 }
 
 .banner-img-1 {
-  margin-left: 138px;
   border-radius: 10px;
 }
 .banner-img-1 .img-1 {
   object-fit: contain;
   border-radius: 10px;
+  width:100%
 }
 .all-logos{
         display: flex;
     margin: 0 auto;
     gap: 28px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .text-with-multi-logos .all-logos .logos-1 img{
@@ -87,12 +89,65 @@ i .aaaa {
 .logos-1{
     border-radius: 10px;
     border:2px solid #c3c2c2;
-    /* background-color: #d1caca; */
-
-    /* background-color:#ac1d1d ; */
+   background-color: #464338;
+   
     padding: 20px;
     align-items: center;
 }
 .logos-1 .img-logo{
-    width:70px
+    width:70px;
+}
+
+.texts-with-cursor-img-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-top: 40px;
+    background-color: #f2f1ed;
+}
+.texts-with-cursor-img-2 .texts{
+    background-color: #f2f1ed;
+
+}
+.texts-with-cursor-img-2 .texts p{
+    background-color: #f2f1ed;
+
+}
+
+.texts-with-cursor-img-2 .banner-2{
+    object-fit: contain;
+}
+
+.texts-with-cursor-img-2 .banner-2 img{
+    object-fit: contain;
+    padding:15px 20px;
+}
+.texts-with-cursor-img-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-top: 40px;
+    background-color: #f2f1ed;
+        flex-direction: row-reverse;
+}
+
+.texts-with-cursor-img-3 .banner-2 img{
+    object-fit: contain;
+    padding:15px 20px;
+}
+.texts-with-cursor-img-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-top: 40px;
+    background-color: #f2f1ed;
+        /* flex-direction: row-reverse; */
+}
+
+.texts-with-cursor-img-4 .banner-2 img{
+    object-fit: contain;
+    padding:15px 20px;
 }
